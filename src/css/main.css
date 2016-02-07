@@ -1,0 +1,74 @@
+body{
+    color: blue;;
+    height: 600px;
+    width: 800px;
+    background-color: lightblue;
+    border: 50px 40px;
+    border-style: dotted;
+    border-bottom-width: thick;
+}
+
+
+#logo {
+    float: left;
+    color: green;
+    width: 150px;
+    height: 150px;
+    background-color: lightcoral;
+    text-align: center;
+    background-size: auto;
+
+}
+
+#head {
+    float: left;
+    color: lightgreen;
+    height: 150px;
+    width: 650px;
+    background-color: green;
+}
+
+#menu{
+    float: left;
+    background-color: cyan;
+    height: 450px;
+    width: 150px;
+    text-decoration: none;
+
+}
+
+#content{
+    float: left;
+    background-color: none;
+    height: 370px;
+    width: 500px;
+    padding: 40px 75px;
+
+}
+
+.menu a:hover {
+    background-color: lightgreen;
+    text-decoration: underline overline;
+
+}
+a.tooltips{
+    position: relative;
+    display: inline;
+    background-color: lightgreen;}
+
+
+
+#textheader {
+    font-size: 2em;
+    height: 150px;
+    line-height: 75px;
+    color: lightyellow;
+    font-family: Helvetica;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline overline;
+
+}
+
+
+

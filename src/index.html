@@ -1,0 +1,107 @@
+<html>
+<head>
+    <title></title>
+    <meta name="generator" content="Bluefish 2.2.7" >
+    <meta name="author" content="Fabio" >
+    <meta name="date" content="2016-02-03T20:28:50+0100" >
+    <meta name="copyright" content="">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="ROBOTS" content="NOINDEX, NOFOLLOW">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8">
+    <link href="css/main.css" rel="stylesheet" type="text/css" media="all" title="Provaesame">
+    <script type="text/javascript" src="js/main.js"></script>
+</head>
+
+<body>
+
+<div id="logo">
+    <p>logo</p>
+
+</div>
+
+<div id="head">
+
+    <p id="textheader">Home Page</p>
+</div>
+
+<div id="menu">
+    <aside>
+        <ul class="menu">
+            <li><a href="#" title="home"> home </a> </li>
+            <li><a href="#" title="chi siamo"> chi siamo </a> </li>
+            <li><a href="#" title="contatti"> contattaci </a> </li>
+            <li><a href="#" title="prodotti"> prodotti </a> </li>
+            <li><a href="#" title="acquista"> acquista </a> </li>
+        </ul>
+
+    </aside>
+</div>
+
+<div id="content">
+
+    <br>
+    <label  for="option">
+        TITOLO
+        <select id="option" onchange="aggiornaElementi()">
+
+            <option value="cd"> CD </option>
+
+            <option value="0">Ok computer</option>
+
+            <option value="1">Let it be</option>
+
+            <option value="2">let it bleed</option>
+
+            <option value="3">The great escape</option>
+
+        </select>
+
+    </label>
+    <BR>
+
+    <label for="artista">
+        ARTISTA
+    </label>
+    <input name="artista" id="artista" type="text" value="" size="30" maxlength="40">
+
+    <label  for="paese">
+        PAESE
+    </label>
+    <input name="paese" id="paese" type="text" value="" size="20" maxlength="40"> <br/>
+
+    <label  for="etichetta">
+        ETICHETTA
+    </label>
+    <input name="etichetta" id="etichetta" type="text" value="" size="20" maxlength="30">
+
+    <label for="anno">
+        ANNO
+    </label>
+    <input name="anno" id="anno" type="text" value="" size="20" maxlength="4"> <br/>
+
+    <label for="prezzo">
+        PREZZO
+    </label>
+
+    <input name="prezzo" id="prezzo" type="text" value="" size="4" maxlength="4"> <br/>
+
+
+    <br>
+
+    <button type="button" onclick="buy()"> <strong><em>aggiungi al carrello</em></strong> </button>
+
+    <button type="button" onclick="erase()"><strong><em> cancella</em></strong> </button>
+
+    <button type="button" onclick="checkout()"><strong><em> acquista </em></strong></button>
+
+</div>
+
+</body>
+</html>
+
+
+
+
+
